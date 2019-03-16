@@ -5,4 +5,3 @@ steps:
       - sync
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'gcr.io/$PROJECT_ID/simple-express', '.']
-    images: ['gcr.io/$PROJECT_ID/simple-express']
