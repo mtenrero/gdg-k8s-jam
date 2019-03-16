@@ -2,7 +2,7 @@ FROM node
 
 WORKDIR /app
 
-ADD ./gcdcmadrid-kevinsimper /app
+ADD . .
 
 RUN npm install
 

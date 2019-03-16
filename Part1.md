@@ -15,3 +15,4 @@
     * gcdcmadrid-kevin
 * Create a proper Dockerfile for it
 * Build & Test the container
+    * It should return a 200 OK with Hello Madrid
