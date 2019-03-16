@@ -50,3 +50,7 @@ NAME             TYPE           CLUSTER-IP      EXTERNAL-IP     PORT(S)         
 kubernetes       ClusterIP      10.47.240.1     <none>          443/TCP          40m
 simple-express   LoadBalancer   10.47.248.158   35.246.38.130   9000:31112/TCP   1m
 ```
+
+### Exposing the service to the world in a different port
+
+Basically we need an Ingress Nginx Controller which it will act as a Proxy, also a SSL offloading can be provided with this Ingress Controller
