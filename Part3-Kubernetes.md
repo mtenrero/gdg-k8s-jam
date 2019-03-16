@@ -21,3 +21,7 @@ Create a Kubernetes Cluster in the Google Cloud Platform Dashboard
 ### Port Forwarding & test locally
 
 `kubectl port-forward <DEPLOYMENT>`
+
+## Freeze deployment into YAML
+
+`kubectl get deploy <DEPLOY_NAME> -o yaml > filename.yaml`
