@@ -54,3 +54,7 @@ simple-express   LoadBalancer   10.47.248.158   35.246.38.130   9000:31112/TCP  
 ### Exposing the service to the world in a different port
 
 Basically we need an Ingress Nginx Controller which it will act as a Proxy, also a SSL offloading can be provided with this Ingress Controller
+
+Also can be achieved with a Service redirection:
+
+`kubectl expose deploy/<DEPLOY_NAME> --type=LoadBalancer --port=80 --target-port=9000`
