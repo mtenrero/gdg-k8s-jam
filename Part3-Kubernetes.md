@@ -25,3 +25,7 @@ Create a Kubernetes Cluster in the Google Cloud Platform Dashboard
 ## Freeze deployment into YAML
 
 `kubectl get deploy <DEPLOY_NAME> -o yaml > filename.yaml`
+
+### Apply YAML into k8s
+
+`kubectl apply -f deployment.yaml`
